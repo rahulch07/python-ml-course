@@ -39,5 +39,6 @@ class Testing:
     def display(self):
         print(f"name: {self.name}, id: {self.id}")
 
-obj = Testing("Rahul", "7")
+# obj = Testing("Rahul", "7")
+obj = Testing("Rahul", 7)
 obj.display()
